@@ -1,4 +1,4 @@
-string = "Hi hope you are fine and doing well.";  
+string = "Hi hope you are fine and doing well." ;  
    
 print("Duplicate characters in a given string: ");  
 #Counts each character present in the string  
