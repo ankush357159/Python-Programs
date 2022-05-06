@@ -1,7 +1,7 @@
 # Python code to remove duplicate elements from a list
-def Remove(numbers):
+def Remove(props):
     final_list = []
-    for num in numbers:
+    for num in props:
         if num not in final_list:
             final_list.append(num)
     

@@ -3,14 +3,15 @@
 def isPalindrom(s):
     return s==s[::-1]
 
-s = "madam"
+# Driver code
+s = input("Enter a string: ")
 ans = isPalindrom(s)
 
 if ans:
-    print("String is Palindrom")
+    print("{0} is a Palindrom".format(s))
 else:
-    print("String is not a Palindrom")
+    print("{0} is not a Palindrom".format(s))
 
-m = "namaga"
-n = m[::-1]
-print(n)
+# m = "namaga"
+# n = m[::-1]
+# print(n)
