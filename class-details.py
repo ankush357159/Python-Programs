@@ -10,4 +10,17 @@ class B(A):
         self.something = something
 
 
-obj = B("something")
+# obj = B("something")
+
+class Tweet:
+    def __init__(self):
+        print("Hello")
+        # print(message)
+
+    def printTweet(self, count):
+        print("Nice to meet you")
+
+
+a = Tweet()
+a.printTweet("count")
+# print(a)
