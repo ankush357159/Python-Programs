@@ -79,12 +79,41 @@ dee = {
 students = {
   "stud1": john, "stud2": dee
 }
-print("Student1 grade:", students["stud1"]["grade"])
-print("Student2 teacher:", students["stud2"]["teacher"])
-for key, val in students.items():
-  print(key, val)
+# print("Student1 grade:", students["stud1"]["grade"])
+# print("Student2 teacher:", students["stud2"]["teacher"])
+# for key, val in students.items():
+#   print(key, val)
 
 # Student1 grade: 1
 # Student2 teacher: Jasmin
 # stud1 {'grade': 1, 'teacher': 'Lilly'}
 # stud2 {'grade': 2, 'teacher': 'Jasmin'}
+
+
+demo1 = {
+  "model": "a",
+  "color": "b"
+}
+
+demo2 = {
+  "model": "c",
+  "color": "b"
+}
+
+temp = []
+demo3 = {}
+
+for key, val in demo1.items():
+  if val not in temp:
+    temp.append(val)
+    demo3[key] = val
+
+print(demo3)
+
+    
+   
+
+
+   
+
+
